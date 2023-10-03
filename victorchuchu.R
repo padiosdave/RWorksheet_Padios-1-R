@@ -186,8 +186,8 @@ print(a, na.print = "999")
 #[1]   1   2 999   4 999   6   7
 
 #15
-name=readline(prompt="Input your name: dave padios ")
-age=readline(prompt="Input your age: 20 ")
+name=readline(prompt="Input your name:")
+age=readline(prompt="Input your age: ")
 print(paste("My name is",name, "and I am", age, "years old."))
 print(R.version.string)
 #the output will use the user's input for their name and age
